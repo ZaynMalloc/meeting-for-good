@@ -90,3 +90,5 @@ app.listen(port, () => {
 computeStats();
 const interval = parseInt(process.env.STATS_UPDATE_INTERVAL || '3600', 10) * 1000;
 setInterval(() => computeStats(), interval);
+
+export default app;
