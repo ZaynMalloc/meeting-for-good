@@ -27,10 +27,10 @@
       "name": "Aniruddh Agarwal",
       "email": "aaniruddh99@gmail.com"
     },
-      {
-        "name": "Bob Sutton",
-        "email": "anischyros@gmail.com"
-      }
+    {
+      "name": "Bob Sutton",
+      "email": "anischyros@gmail.com"
+    }
   ],
   "license": "MIT",
   "bugs": {
@@ -56,6 +56,7 @@
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
     "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
     "chalk": "^1.1.3",
     "chroma-js": "^1.3.3",
     "chunk-manifest-webpack2-plugin": "^1.0.1",
