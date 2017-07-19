@@ -15,7 +15,6 @@ import Users from './user.model';
 import Events from '../events/events.model';
 import { respondWithResult, patchUpdates, handleError, handleEntityNotFound, upsertModel, destroyModel } from '../utils/api.utils';
 
-
 // Gets a list of all  users
 const index = (req, res) => Users.find().exec()
   .then(respondWithResult(res))
